@@ -3,6 +3,8 @@ With the increasing demand for automation and cross-lingual analysis in maritime
 
 ## Please refer to and cite the following for details: https://doi.org/10.1016/j.ress.2025.111788
 
+
+
 | Png | PDF |
 |-----------|-----------|
 | [![Fig1](./Fig1-1.png)](./Fig1-1.pdf) | [Fig1-1.pdf](./Fig1-1.pdf) |
@@ -10,3 +12,11 @@ With the increasing demand for automation and cross-lingual analysis in maritime
 | [![Fig7](./Fig7-1.png)](./Fig7-1.pdf) | [Fig7-1.pdf](./Fig7-1.pdf) |
 | [![Fig8](./Fig8-1.png)](./Fig8-1.pdf) | [Fig8-1.pdf](./Fig8-1.pdf) |
 | [![Fig9](./Fig9-1.png)](./Fig9-1.pdf) | [Fig9-1.pdf](./Fig9-1.pdf) |
+
+
+
+# A large-scale pre-trained model based data-driven analysis method for maritime accidents
+To address key challenges in analyzing Risk Influence Factors (RIFs) for maritime accidents, such as reliance on single-language data, subjectivity in RIF construction, and inefficiency in extracting information from large-scale unstructured sources, this study proposes an integrated intelligent framework that combines large-scale pre-trained models with data-driven analysis. The framework comprises four main steps. Firstly, 449 bilingual ship collision accident reports were collected via web crawling from the China Maritime Safety Administration and the UK Marine Accident Investigation Branch. Secondly, an objective RIF ontology was developed using Grounded Theory. Thirdly, the Unified Information Extraction Multi-Language model was fine-tuned using the bilingual corpus to enable intelligent information extraction and conversion into training data, with improvements in three extraction sub-tasks ranging from 3.96% to 41.45% over the baseline model. Finally, a Tree-Augmented Naïve Bayesian Network model was constructed based on the extracted data. The effectiveness of the framework was validated through model-based sensitivity and case analyses. This approach enables efficient and automated extraction of RIF-related knowledge from large-scale, multilingual accident datasets, significantly enhancing the intelligence level of RIF analysis while reducing manual effort and subjectivity. The proposed methodology provides a comprehensive and scalable solution for data-driven risk analysis in maritime safety research.
+
+
+
